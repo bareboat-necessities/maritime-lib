@@ -44,4 +44,7 @@ unzip -jo OnboardComputerSystemDocuments.zip \
  "Documents/World Port Index*"
 
 rm OnboardComputerSystemDocuments.zip
+
+# cd .. && tar cf - Maritime/ | xz -z -v -8 -c --threads=8 --memory=4G > maritime-lib.tar.xz
+
 cd "$CUR_DIR"
